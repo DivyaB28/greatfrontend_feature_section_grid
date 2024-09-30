@@ -2,6 +2,8 @@ main {
   margin: 0.8rem;
   background: #ffffff;
   padding: 0.75rem;
+  border-radius: 8px;
+  box-shadow: 0.1px 0 8px 0px grey;
 }
 .header_wrapper {
   display: flex;
