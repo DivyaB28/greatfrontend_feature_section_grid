@@ -4,7 +4,7 @@ import "./featureCard.css";
 const FeatureCard = ({ Icon, title = "", description = "" }) => {
   return (
     <li>
-      <div className="icon_wrapper" aria-description="icon">
+      <div className="icon_wrapper" aria-describedby="icon">
         <Icon className="icon" />
       </div>
       <p className="feature_title">{title}</p>
